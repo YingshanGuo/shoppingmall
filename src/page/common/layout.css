@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-06-29 12:13:38 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-06-29 13:25:24
+ * @Last Modified time: 2017-07-04 17:32:32
  */
 
 /*css reset*/
@@ -40,7 +40,23 @@ input[type='checkbox']{
 .large .w{
     width:1600px;
 }
-
+/*panel*/
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background:#fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+} 
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
 /*全局通用样式*/
 /*隐藏类*/
 .hide{

@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-06-30 11:12:25 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-06-30 11:51:23
+ * @Last Modified time: 2017-07-04 17:23:31
  */
  /*通用头部导航*/
 .header .logo{
@@ -26,7 +26,7 @@
     line-height: 40px;
     padding-left: 10px;
     font-size: 15px;
-    border: 2px solod #c60023;
+    border: 2px solid #c60023;
     outline: none;
 }
 
@@ -34,4 +34,15 @@
         position: absolute;
         height: 44px;
         width:80px;
+}
+
+/*面包屑导航*/
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
 }
