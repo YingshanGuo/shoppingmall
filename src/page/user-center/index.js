@@ -2,11 +2,11 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-04 17:14:18 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-04 18:35:38
+ * @Last Modified time: 2017-07-04 19:16:16
  */
 
 'use strict';
-require('./index.js');
+require('./index.css');
 require('page/common/nav/index.js');
 require('page/common/header/index.js');
 var navSide = require('page/common/nav-side/index.js');

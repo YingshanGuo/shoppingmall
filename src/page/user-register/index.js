@@ -2,7 +2,7 @@
  * @Author: Yoko 
  * @Date: 2017-06-27 17:30:54 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-03 22:45:14
+ * @Last Modified time: 2017-07-04 20:05:41
  */
 
 'use strict';
@@ -88,26 +88,6 @@ var page = {
             status  : false,
             msg     : ''
         };
-        // 验证用户名是否为空
-        if(!_mm.validate(formData.username, 'require')){
-            result.msg = '用户名不能为空';
-            return result;
-        }
-        // 验证密码是否为空
-        if(!_mm.validate(formData.password, 'require')){
-            result.msg = '密码不能为空';
-            return result;
-        }
-        // 验证密码长度
-        if(formData.password.length < 6){
-            result.msg = '密码长度不能少于6位';
-            return result;
-        }
-        // 验证两次输入的密码是否一致
-        if(formData.password !== formData.passwordConfirm){
-            result.msg = '两次输入的密码不一致';
-            return result;
-        }
         // 验证手机号
         if(!_mm.validate(formData.phone, 'phone')){
             result.msg = '手机号格式不正确';
