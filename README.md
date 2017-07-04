@@ -1,8 +1,11 @@
 # 安装指南
 
-### 下载安装 node npm
+### 下载安装 Git node npm
 
-### 检查版本
+1. Git安装网址      ：  https://git-scm.com/downloads
+2. Node.js 安装网址 ：  https://nodejs.org/zh-cn/download/ （新版Node.js包含npm）
+
+### Terminal 检查版本
 ```
 node -v  
 ```
@@ -10,7 +13,7 @@ node -v
 npm -v
 ```
 
-### Terminal操作
+### Terminal 安装项目
 
 1. ```npm install```
 2. ```webpack ```
