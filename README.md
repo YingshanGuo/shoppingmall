@@ -21,18 +21,21 @@ npm -v
 ### 代理
 
 #### Charles
-Map remote
 
-```
+1. 在http://localhost:8088 右键 Map remote 
+2.  
+
 Map From:
+```
 Prorocol: http
 Host:localhost 
 Port:8088
 Path:/user/*
 ```
 
-```
 Map To:
+
+```
 Prorocol: http
 Host:www.happymmall.com
 Port:80
