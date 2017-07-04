@@ -3,15 +3,20 @@
 ### 下载安装 node npm
 
 ### 检查版本
-node -v
+```
+node -v  
+```
+```
 npm -v
+```
 
-### 在Terminal中
+### Terminal操作
 
-1. npm install
-2. webpack 
-3. npm run dev_win  windows系统  
-   npm run dev      非windows系统
+1. ```npm install```
+2. ```webpack ```
+3. ```npm run dev_win```  windows系统 
+    
+   ```npm run dev```     非windows系统
 4. http://localhost:8088/dist/view/index.html  浏览器打开该网址
 
 ### 代理
