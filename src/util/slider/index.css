@@ -1,0 +1,17 @@
+/*
+ * @Author: mikey.zhaopeng 
+ * @Date: 2017-07-06 15:28:58 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2017-07-06 15:30:10
+ */
+ /*banner*/
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.banner li {
+    list-style: none;
+}
+.banner ul li{
+    float: left;
+}
