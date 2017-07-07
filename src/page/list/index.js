@@ -2,14 +2,15 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-06 16:03:19 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-06 18:22:13
+ * @Last Modified time: 2017-07-07 12:57:38
  */
 'use strict';
 require('./index.css');
 require('page/common/nav/index.js');
 require('page/common/header/index.js');
-var _mm = require('util/mm.js');
-var _product = require('service/product-service.js');
+var _mm           = require('util/mm.js');
+var _product      = require('service/product-service.js');
+var Pagination    = require('util/pagination/index.js');
 var templateIndex = require('./index.string');
 
 var page = {
@@ -81,14 +82,29 @@ var page = {
                 list : res.list
             });
             $pListCon.html(listHtml);
-            _this.loadPagination(res.pageNum,res.pages);
+            _this.loadPagination({
+                hasPreviousPage : res.hasPreviousPage,
+                prePage         : res.prePage,
+                hasNextPage     : res.hasNextPage,
+                nextPage        : res.nextPage,
+                pageNum         : res.pageNum,
+                pages           : res.pages
+            });
         },function(errMsg){
             _mm.errorTips(errMsg);
         });
     },
-    //加载分页信息
-    loadPagination : function(pageNum,pages){
-
+    // 加载分页信息
+    loadPagination : function(pageInfo){
+        var _this = this;
+        this.pagination ? '' : (this.pagination = new Pagination());
+        this.pagination.render($.extend({}, pageInfo, {
+            container : $('.pagination'),
+            onSelectPage : function(pageNum){
+                _this.data.listParam.pageNum = pageNum;
+                _this.loadList();
+            }
+        }));
     }
 }
 

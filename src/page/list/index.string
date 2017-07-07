@@ -1,7 +1,7 @@
 {{#list}}
     <li class="p-item">
         <div class="p-img-con">
-            <a href="" class="link" href="./detail.html?productId={{id}}" target="_blank">
+            <a  class="link" href="./detail.html?productId={{id}}" target="_blank">
                 <img class="p-img" src="{{imageHost}}{{mainImage}}" alt="{{name}}">
             </a>
         </div>
@@ -12,4 +12,7 @@
             <a href="./detail.html?productId={{id}}" class="p-name">{{name}}</a>
         </div>
     </li>   
+{{/list}}
+{{^list}}
+<p class="err-tip">很抱歉，实在找不到您要的商品</p>
 {{/list}}

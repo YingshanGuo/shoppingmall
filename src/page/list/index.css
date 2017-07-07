@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-06 16:11:13 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-06 17:59:12
+ * @Last Modified time: 2017-07-07 15:20:53
  */
 /*排序按钮*/
 .sort-con{
@@ -80,4 +80,14 @@
 .p-list-con .p-item .p-price-con .p-price{
     font-size: 16px;
     color: #e7380d;
+}
+/* 错误信息 */
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
 }
