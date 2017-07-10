@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-06 16:03:19 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-07 12:57:38
+ * @Last Modified time: 2017-07-08 20:10:39
  */
 'use strict';
 require('./index.css');
@@ -17,17 +17,17 @@ var page = {
     data :{
         listParam :{
             keyword    : _mm.getUrlParam('keyword')    ||'',
-            catagoryId : _mm.getUrlParam('catagoryId') ||'',
+            categoryId : _mm.getUrlParam('categoryId') ||'',
             orderBy    : _mm.getUrlParam('orderBy')    ||'default',
             pageNum    : _mm.getUrlParam('pageNum')    ||1,
             pageSize   : _mm.getUrlParam('pageSize')   ||20
         }
     },
-    init :function(){
+    init : function(){
         this.onLoad();
         this.bindEvent();
     },
-    onLoad: function(){
+    onLoad  : function(){
         this.loadList();
     },
     bindEvent : function(){
