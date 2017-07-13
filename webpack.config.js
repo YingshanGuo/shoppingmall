@@ -2,14 +2,14 @@
  * @Author: Yoko
  * @Date: 2017-06-27 17:27:38 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-13 20:41:38
+ * @Last Modified time: 2017-07-13 21:41:56
  */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 //环境变量配置 .dev / online
-var WEBPACK_ENV         = process.env.WEBPACK_ENV || 'dev';
+var WEBPACK_ENV          = process.env.WEBPACK_ENV || 'dev';
 console.log("WEBPACK_ENV = ",WEBPACK_ENV);
 
 //获取html-webpack-plugin参数的方法
