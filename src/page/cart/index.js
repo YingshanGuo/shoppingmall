@@ -1,8 +1,8 @@
 /*
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-10 13:10:25 
- * @Last Modified by:   mikey.zhaopeng 
- * @Last Modified time: 2017-07-10 13:10:25 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2017-07-10 18:38:35
  */
 
 'use strict';
@@ -176,4 +176,4 @@ var page = {
 };
 $(function(){
     page.init();
-})
+});

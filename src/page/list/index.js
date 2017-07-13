@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-07-06 16:03:19 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-08 20:10:39
+ * @Last Modified time: 2017-07-12 20:32:03
  */
 'use strict';
 require('./index.css');
@@ -73,7 +73,9 @@ var page = {
             listParam = this.data.listParam,
             $pListCon = $('.p-list-con');
         $pListCon.html(' <div class="loading"></div>');
-        //删除参数中不必要的字段
+        //删除参数中不必要的字段 
+        //keyword或者categoryId这俩参数只需要一个，
+        //如果是按关键字查询列表，那categoryId就是没用的，所以这两个要删一个
         listParam.catagoryId 
         ? (delete listParam.keyword) : (delete listParam.catagoryId);
         //请求接口
@@ -97,6 +99,8 @@ var page = {
     // 加载分页信息
     loadPagination : function(pageInfo){
         var _this = this;
+        //this是有的，所以this.xxx没有的话就是个undefined，不会出错
+        //加入后面再接，this.xxx.ooo就有问题了，相当于undefined.ooo
         this.pagination ? '' : (this.pagination = new Pagination());
         this.pagination.render($.extend({}, pageInfo, {
             container : $('.pagination'),
