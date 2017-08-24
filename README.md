@@ -59,14 +59,26 @@ Path:/user/
 ```
 
 
-## 网站样本
+## 网站快照
+
+声明：本网站均采用网络图片作为网站演示，如有侵权行为，请联系本人。
+
 - 首页
+
 <img src="./others/1.png">
+
 - 产品列表
+
 <img src="./others/2.png">
+
 - 产品详情
+
 <img src="./others/3.jpg">
+
 - 我的订单
+
 <img src="./others/4.png">
+
 - 订单信息
+
 <img src="./others/5.png">
