@@ -57,3 +57,12 @@ Path:/user/
 ```
 /manage/
 ```
+
+
+## 网站样本
+
+<img src="./others/1.png">
+<img src="./others/2.png">
+<img src="./others/3.png">
+<img src="./others/4.png">
+<img src="./others/5.png">
