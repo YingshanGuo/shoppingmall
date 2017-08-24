@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-06-29 13:53:16 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-04 17:25:36
+ * @Last Modified time: 2017-08-23 22:03:19
  */
 
 .nav-simple{
@@ -13,8 +13,25 @@
 }
 
 .nav-simple .logo{
-    font-size: 26px;
-    font-weight:bold;
-    color:#c60023;
+    position: absolute;
+    top: 21px;
+    display: flex;
+    font-size: 48px;
+    color: #c60023;
+    font-weight: bold;
     text-decoration: none;
+}
+.favicon{
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    background: url('../../../image/icon/favicon.png') no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+.web-name{
+    display: inline-block;
+    position: relative;
+    transform: translate(0,0%);
+    top: 50%;
 }

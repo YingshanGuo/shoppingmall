@@ -1,35 +1,45 @@
 <div class="banner">
     <ul>
-        <li>
-            <a href="./list.html?categoryId=100021" target="_blank">
-                <img class="banner-img" src="../../image/banner/banner1.jpg" />
-            </a>
+        <li style="background-color: #a4212f;">
+            <div class="main-banner">
+                <a href="./list.html?categoryId=100021" target="_blank">
+                    <img class="banner-img" src="../../image/banner/banner1.jpg" />
+                </a>
+            </div>
         </li>
-        <li>
-            <a href="./list.html?categoryId=100030" target="_blank">
-                <img class="banner-img" src="../../image/banner/banner2.jpg" />
-            </a>
+        <li style="background-color:#e8e8e8;">
+            <div class="main-banner">
+                <a href="./list.html?categoryId=100030" target="_blank">
+                    <img class="banner-img" src="../../image/banner/banner2.jpg" />
+                </a>
+            </div>
         </li>
-        <li>
-            <a href="./list.html?categoryId=100016" target="_blank">
-                <img class="banner-img" src="../../image/banner/banner3.jpg" />
-            </a>
+        <li style="background-color:#fcda5f;">
+            <div class="main-banner">
+                <a href="./list.html?categoryId=100016" target="_blank">
+                    <img class="banner-img" src="../../image/banner/banner3.jpg" />
+                </a>
+            </div>
         </li>
-        <li>
-            <a href="./list.html?categoryId=100001" target="_blank">
-                <img class="banner-img" src="../../image/banner/banner4.jpg" />
-            </a>
+        <li style="background-color: rgb(255, 3, 83);">
+            <div class="main-banner">
+                <a href="./list.html?categoryId=100001" target="_blank">
+                    <img class="banner-img" src="../../image/banner/banner4.jpg" />
+                </a>
+            </div>
         </li>
-        <li>
-            <a href="./list.html?categoryId=100021" target="_blank">
-                <img class="banner-img" src="../../image/banner/banner5.jpg" />
-            </a>
+        <li style="background-color:#18205f;">
+            <div class="main-banner">
+                <a href="./list.html?categoryId=100021" target="_blank">
+                    <img class="banner-img" src="../../image/banner/banner5.jpg" />
+                </a>
+            </div>
         </li>
     </ul>
-    <div class="banner-arrow prev">
+    <!--<div class="banner-arrow prev">
         <i class="fa fa-angle-left"></i>
     </div>
     <div class="banner-arrow next">
         <i class="fa fa-angle-right"></i>
-    </div>
+    </div>-->
 </div>

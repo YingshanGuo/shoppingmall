@@ -2,7 +2,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2017-06-29 14:53:55 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-06-30 17:40:21
+ * @Last Modified time: 2017-08-23 22:38:33
  */
 'use strict';
 require('./index.css');
@@ -16,7 +16,7 @@ var navSide = {
             {name : 'user-center', desc : '个人中心', href: './user-center.html'},
             {name : 'order-list', desc : '我的订单', href: './order-list.html'},
             {name : 'user-pass-update', desc : '修改密码', href: './user-pass-update.html'},
-            {name : 'about', desc : '关于MMall', href: './about.html'}
+            {name : 'about', desc : '关于嗨皮购', href: './about.html'}
         ]
     },
     init : function(option){

@@ -2,7 +2,7 @@
  * @Author: Yoko
  * @Date: 2017-06-27 17:27:38 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-13 21:41:56
+ * @Last Modified time: 2017-08-23 22:36:08
  */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -101,7 +101,7 @@ var config = {
          new HtmlWebpackPlugin (getHtmlConfig('user-center-update','修改个人信息')),
          new HtmlWebpackPlugin (getHtmlConfig('user-pass-update','修改密码')),
          new HtmlWebpackPlugin (getHtmlConfig('result','操作结果')),
-         new HtmlWebpackPlugin (getHtmlConfig('about','关于mmall')),
+         new HtmlWebpackPlugin (getHtmlConfig('about','关于嗨皮购')),
          new HtmlWebpackPlugin (getHtmlConfig('test','测试页面'))
      ]
  };
