@@ -272,20 +272,4 @@
             </div>
             <%= require('html-loader!./layout/footer.html')  %>
         </body>
-        <sctipt type="text/javscript">
-            window.onresize = function () {
-                resizeList();
-            }
-            window.onload = function () {
-                resizeList();
-                tip();
-            }
-            function resizeList() {
-                var logo = document.getElementById("logo");
-                var offsetLeft = logo.offsetParent.offsetLeft;
-
-                var list = document.getElementById("keywords-list");
-                list.style.left = offsetLeft + "px";
-            }
-        </sctipt>
     </html>
