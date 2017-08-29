@@ -21,11 +21,11 @@ npm -v
    ```npm run dev```    非windows系统
 4. http://localhost:8088/dist/view/index.html  浏览器打开该网址
 
-### 本购物商城域名（备案中）
+### 本购物商城域名
 
 yokokuok.xin
 
-### 暂用代理
+### 开发暂用代理
 
 #### Charles
 
