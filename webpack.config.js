@@ -2,7 +2,7 @@
  * @Author: Yoko
  * @Date: 2017-06-27 17:27:38 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-23 22:36:08
+ * @Last Modified time: 2017-08-29 16:09:38
  */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -48,7 +48,7 @@ var config = {
      },
      output: {
          path       :  __dirname + '/dist/',
-         publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymmall.com/mmall-fe/dist/',
+         publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.yokokuok.xin/',
          filename   : 'js/[name].js'
      },
      externals:{
