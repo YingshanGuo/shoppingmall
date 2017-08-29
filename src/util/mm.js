@@ -2,11 +2,12 @@
  * @Author: Yoko 
  * @Date: 2017-06-28 23:30:11 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-01 19:26:15
+ * @Last Modified time: 2017-08-29 17:51:27
  */
 
 'use strict';
 var hogan = require('hogan.js');
+// var hogan = require('hogan');
 var conf = {
     serverHost : ''
 };
