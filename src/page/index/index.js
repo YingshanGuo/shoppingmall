@@ -2,7 +2,7 @@
  * @Author: Yoko 
  * @Date: 2017-06-27 17:30:54 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-24 11:50:06
+ * @Last Modified time: 2017-08-30 11:58:13
  */
 
 'use strict';
@@ -37,10 +37,10 @@ $(function () {
 
 //侧边导航
 window.onresize = function () {
-    resizeList();
+    // resizeList();
 }
 window.onload = function () {
-    resizeList();
+    // resizeList();
     tip();
 }
 function resizeList() {

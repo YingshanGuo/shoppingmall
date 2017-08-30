@@ -2,7 +2,7 @@
  * @Author: Yoko 
  * @Date: 2017-06-27 21:16:37 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-24 11:27:35
+ * @Last Modified time: 2017-08-30 11:58:45
  */
 .full-screen{
     width: 100%;
@@ -14,6 +14,7 @@
     float: left;
     width: 240px;
     height: 480px;
+    left: calc(( 100% - 1080px )/2);
     padding: 10px 0;
     margin-right: 10px;
     background: #666;
