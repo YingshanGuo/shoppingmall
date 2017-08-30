@@ -2,7 +2,7 @@
  * @Author: Yoko 
  * @Date: 2017-06-27 21:16:37 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-30 11:58:45
+ * @Last Modified time: 2017-08-30 12:05:06
  */
 .full-screen{
     width: 100%;
@@ -22,7 +22,11 @@
     position: absolute;
     z-index: 10;
 }
-
+@media screen and (max-width: 1080px) {
+    .keywords-list{
+        left: 0;
+    }
+}
 .keywords-list .keywords-item{
     padding-left: 10px;
     height: 35px;
